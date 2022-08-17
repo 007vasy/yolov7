@@ -264,3 +264,8 @@ poetry add $( cat requirements.txt | grep -wv '#' | grep -wv 'ipython')
 ```
 python detect.py --source=0 --nosave --no-trace --device=0
 ```
+
+#### list all webcams
+```
+ls -ltrh /dev/video*
+```
