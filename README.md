@@ -259,3 +259,8 @@ Yolov7-semantic & YOLOv7-panoptic
 ```bash
 poetry add $( cat requirements.txt | grep -wv '#' | grep -wv 'ipython')
 ```
+
+### Webcam test
+```
+python detect.py --source=0 --nosave --no-trace --device=0
+```
