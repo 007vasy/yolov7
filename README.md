@@ -254,3 +254,8 @@ Yolov7-semantic & YOLOv7-panoptic
 * [https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose](https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose)
 
 </details>
+
+### Poetry
+```bash
+poetry add $( cat requirements.txt | grep -wv '#' | grep -wv 'ipython')
+```
